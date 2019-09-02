@@ -9,7 +9,7 @@ DISTRO_FEATURES += "wifi"
 IMAGE_INSTALL += "\
                  boost\
                  python3\
-		 sshd\
+		 openssh\
 "
 
 TOOLCHAIN_TARGET_TASK += "boost-dev"
